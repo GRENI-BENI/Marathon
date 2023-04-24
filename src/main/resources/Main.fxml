@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.layout.StackPane?>
+
+<TabPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="300.0" minWidth="500.0" prefHeight="574.0" prefWidth="900.0" tabClosingPolicy="UNAVAILABLE" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.kursbdmvn.front.controller.MainController">
+  <tabs>
+    <Tab text="Participants">
+         <content>
+            <StackPane prefHeight="150.0" prefWidth="200.0">
+               <children>
+                  <fx:include source="ParticipantTab.fxml" />
+               </children></StackPane>
+         </content>
+    </Tab>
+      <Tab text="Registrations">
+         <content>
+            <StackPane prefHeight="150.0" prefWidth="200.0">
+               <children>
+                  <fx:include source="RegistrationTab.fxml" />
+               </children></StackPane>
+         </content>
+      </Tab>
+    <Tab text="Competitions">
+         <content>
+            <StackPane prefHeight="150.0" prefWidth="200.0">
+               <children>
+                  <fx:include source="CompetitionTab.fxml" />
+               </children></StackPane>
+         </content>
+    </Tab>
+      <Tab text="Distances">
+         <content>
+            <StackPane prefHeight="150.0" prefWidth="200.0">
+               <children>
+                  <fx:include source="DistanceTab.fxml" />
+               </children></StackPane>
+         </content>
+      </Tab>
+      <Tab text="Discounts">
+         <content>
+            <StackPane prefHeight="150.0" prefWidth="200.0">
+               <children>
+                  <fx:include source="DiscountTab.fxml" />
+               </children></StackPane>
+         </content>
+      </Tab>
+      <Tab text="Genders">
+         <content>
+            <StackPane prefHeight="150.0" prefWidth="200.0">
+               <children>
+                  <fx:include source="GenderTab.fxml" />
+               </children></StackPane>
+         </content>
+      </Tab>
+      <Tab text="Timing points">
+         <content>
+            <StackPane prefHeight="150.0" prefWidth="200.0">
+               <children>
+                  <fx:include source="TimingPointTab.fxml" />
+               </children></StackPane>
+         </content></Tab>
+      <Tab text="Cities">
+         <content>
+            <StackPane prefHeight="150.0" prefWidth="200.0">
+               <children>
+                  <fx:include source="CityTab.fxml" />
+               </children>
+            </StackPane>
+         </content>
+      </Tab>
+      <Tab text="Timing records">
+         <content>
+            <StackPane prefHeight="150.0" prefWidth="200.0">
+               <children>
+                  <fx:include source="TimingRecordTab.fxml" />
+               </children></StackPane>
+         </content>
+      </Tab>
+  </tabs>
+</TabPane>
